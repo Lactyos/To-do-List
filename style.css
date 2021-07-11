@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f43a09;
+    color: white;
+    
+}
+
+#Title {
+    font-size: 50px;
+    margin: 20px;
+    border-bottom: 6px solid gainsboro;
+    margin-left: 0;
+    width: 100%;
+    
+    
+}
+
+input {
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    width: 30%;
+    height: 20px;
+    outline: none;
+}
+
+.Input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+label {
+    margin-bottom: 10px;
+
+}
+
+ul {
+    margin: 30px;
+    margin-bottom: 5px;
+    
+}
+
+button {
+    margin: 10px;
+    border-radius: 15px;
+    border: 4px;
+    background-color: gainsboro;
+    height: 30px;
+    width: 70px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: teal;
+}

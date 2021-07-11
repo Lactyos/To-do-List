@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/To-do list/style.css">
+    <script src="/To-do list/program.js"></script>
+    <title>To-do list</title>
+</head>
+<body>
+    <h1 id="Title">To-do list</h1>
+        
+    <div class="Input">
+        <label for="input">Escreve aqui o que queres anotar: </label>           
+        <input type="text" id="input_box" placeholder="Type here">
+        <button id="submit_box" onclick=setThing()>Submit</button>        
+    </div>
+
+
+
+    <div id="userOutput">
+        <ul id="list">
+
+
+        </ul>
+
+    
+    </div>
+
+    <button onclick=removeAll()>
+        Clear all
+    </button>
+</body>
+</html>
