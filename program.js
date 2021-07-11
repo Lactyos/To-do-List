@@ -1,6 +1,8 @@
 function setThing() {
 
     const input = document.getElementById("input_box").value;
+    
+    if (input == "") return;
 
     document.getElementById("input_box").value = "";
 
